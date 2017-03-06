@@ -1,0 +1,218 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2b81a0;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.fr {
+    float: right;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+input[type=text], input[type=date] {
+    display: block;
+    width: 84%;
+    margin-right: 1%;
+    padding: 12px 9px;
+    border: 0;
+    border-radius: 6px;
+    float: left;
+    line-height: 1.4;
+}
+
+input[type=date] {
+    padding: 9px;
+}
+
+.action {
+    display: inline-block;
+    margin-right: 15px;
+    color: #888;
+    font-size: 90%;
+}
+
+.action:hover {
+    color: #333;
+}
+
+button {
+    padding: 14px 5px;
+    display: inline-block;
+    border: 0;
+    color: #fff;
+    background: rgb(41, 52, 105);
+    cursor: pointer;
+}
+
+button[type=submit] {
+    width: 15%;
+    border-radius: 6px;
+}
+.judge{
+    width: 184px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.btn{
+    width: 80px;
+    border-radius: 12px;
+    margin-right: 12px;
+}
+
+.cancel{
+    background: #797979;
+}
+.cancel:hover{
+    background: #333;
+}
+button:hover {
+    background: rgb(26, 34, 69);
+}
+
+.wrapper {
+    padding: 0 10px;
+}
+
+.task-list {
+    margin: 10px 0;
+    color: #333;
+}
+
+.task-item {
+    padding: 14px 8px;
+    position: relative;
+    background: #ffffff;
+    border: 0px;
+    border-bottom: 3px solid #2b81a0;
+    border-radius: 6px;
+    -webkit-box-shadow: 3px 5px 3px 2px rgba(60, 60, 60, 0.4);
+    -moz-box-shadow: 3px 5px 3px 2px rgba(60, 60, 60, 0.4);
+    box-shadow: 3px 3px 5px 2px rgba(60, 60, 60, 0.4);
+    cursor: pointer;
+    transition: background 0.4s;
+}
+
+.task-item:hover {
+    background: #efefef;
+}
+
+.task-item.completed {
+    color: #999;
+    opacity: 0.6;
+}
+
+.task-item.completed:before {
+    content: '';
+    height: 1px;
+    background: #aaaaaa;
+    width: 95%;
+    position: absolute;
+    top: 23px;
+    right: 10px;
+    display: block;
+}
+
+.task-content {
+    margin-left: 10px;
+}
+
+.task-detail {
+    display: none;
+    width: 52%;
+    height: auto;
+    position: relative;
+    padding: 10px 0;
+    top: -180px;
+    left: 205px;
+    background: #f2f2f2;
+    border-radius: 9px;
+    -webkit-box-shadow: 3px 7px 3px 2px rgba(60, 60, 60, 0.4);
+    -moz-box-shadow: 3px 7px 3px 2px rgba(60, 60, 60, 0.4);
+    box-shadow: 3px 3px 7px 2px rgba(60, 60, 60, 0.4);
+}
+
+.task-detail .input_item {
+    margin-bottom: 10px;
+}
+
+.task-detail-mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.desc {
+    margin: 0px 10px 0px 0;
+}
+
+#descTextarea {
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.content {
+    margin-bottom: 10px;
+    padding-left: 10px;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #2b81a0;
+}
+
+.remind {
+    width: 80%;
+    height: 50px;
+    color: #333;
+}
+.remind label{
+    line-height: 40px;
+    font-weight:700;
+    font-size: 20px;
+}
+
+#reDate {
+    width: 75%;
+    margin-right: 1%;
+}
+
+#reSubmit {
+    width: 23%;
+    padding: 12px 5px;
+}
+
+.msg{
+    display: none;
+    text-align: center;
+    background: #fbb324;
+    color: #fff;
+    padding: 20px;
+}
+
+.msg button{
+    border-radius: 10px;
+    padding:10px 20px;
+}
+
+.music{
+    width:0;
+    height:0;
+    opacity:0;
+}
